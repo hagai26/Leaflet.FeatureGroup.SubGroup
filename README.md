@@ -11,16 +11,18 @@ provides beautiful animated Marker Clustering functionality.
 [Leaflet](http://leafletjs.com/) is the leading open-source JavaScript library
 for mobile-friendly interactive maps.
 
-Current SubGroup version: 0.1.1
+Latest SubGroup release: [v1.0.0](https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup/releases/tag/v1.0.0)
+
+Size: 2 kB minified, < 1 kB gzipped.
 
 
 
 ## Requirements
-*Requires Leaflet 1.0.0-beta2*
+*Requires Leaflet 1.0.0-rc.1*
 
-*For Leaflet 0.7 use the [leaflet-0.7 branch](https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup/tree/leaflet-0.7)*
+*For Leaflet 0.7 use the [v0.1.1 tag](https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup/tree/v0.1.1) or the [leaflet-0.7 branch](https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup/tree/leaflet-0.7)*
 
-*Optional: Leaflet.markercluster dev*
+*Optional: [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster) plugin*
 
 
 
@@ -36,7 +38,7 @@ Current SubGroup version: 0.1.1
 **HTML:**
 ```html
 <!-- after Leaflet script -->
-<script src="leaflet.featuregroup.subgroup-src.js"></script>
+<script src="leaflet.featuregroup.subgroup.js"></script>
 ```
 
 **JavaScript:**
@@ -59,17 +61,16 @@ It should virtually be compatible with any LayerGroup plugin, not only MarkerClu
 ### Installing the sub-plugin
 
 #### Local copy
-1. <a class="test" href="https://raw.githubusercontent.com/ghybs/Leaflet.FeatureGroup.SubGroup/master/leaflet.featuregroup.subgroup-src.js" download="leaflet.featuregroup.subgroup-src.js" target="_blank">Download</a> the "leaflet.featuregroup.subgroup-src.js" file (right click on the link and "Save Link As…").
+1. Download the "<a href="https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup/releases/download/v1.0.0/leaflet.featuregroup.subgroup.js" download="leaflet.featuregroup.subgroup.js">`leaflet.featuregroup.subgroup.js`</a>" file from [`v1.0.0` release](https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup/releases/tag/v1.0.0).
 2. Place the file alongside your page.
-3. Add the `script` tag (see [Quick Guide > HTML](#quick-guide)) to your page after
-Leaflet script.
+3. Add the `script` tag (see [Quick Guide > HTML](#quick-guide)) to your page after Leaflet script.
 
 #### CDN
 You can alternatively use the free [RawGit](https://rawgit.com/) CDN service, but keep in mind that there are [no uptime or support guarantees](https://rawgit.com/faq#no-uptime-guarantee).
 
 ```html
 <!-- After Leaflet script -->
-<script src="https://cdn.rawgit.com/ghybs/Leaflet.FeatureGroup.SubGroup/43fc6b39fa31018490c7ce52d24e760d903ed879/leaflet.featuregroup.subgroup-src.js"></script>
+<script src="https://cdn.rawgit.com/ghybs/Leaflet.FeatureGroup.SubGroup/v1.0.0/dist/leaflet.featuregroup.subgroup.js"></script>
 ```
 
 
